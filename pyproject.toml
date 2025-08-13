@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "os-config-tool"
+version = "0.1.0"
+# Define dependencies here, this is the correct place.
+dependencies = [
+    "InquirerPy",
+    "yaspin",
+]
